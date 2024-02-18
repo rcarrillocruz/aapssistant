@@ -1,0 +1,7 @@
+[
+    {
+      "model": "openhermes2.5-mistral",
+      "base_url": "http://192.168.1.200:11434/v1",
+      "api_key": "ollama"
+    }
+]
