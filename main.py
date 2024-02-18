@@ -2,7 +2,7 @@ import autogen
 from autogen import AssistantAgent, UserProxyAgent
 
 filter_dict = {"model": "openhermes2.5-mistral"}
-config_list = autogen.config_list_from_json(env_or_file="OAI_CONFIG_LIST.json", filter_dict=filter_dict)
+config_list = autogen.config_list_from_json(env_or_file="OAI_CONFIG_LIST", filter_dict=filter_dict)
 
 assistant = AssistantAgent("assistant", llm_config={"config_list": config_list})
 
